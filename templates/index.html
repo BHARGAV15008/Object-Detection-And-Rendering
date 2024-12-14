@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object Detection Project</title>
+</head>
+<body>
+    <h1>Welcome to the Object Detection Project</h1>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <label for="file">Upload Dataset:</label>
+        <input type="file" id="file" name="file">
+        <button type="submit">Upload and Train</button>
+    </form>
+    <br>
+    <a href="/detect"><button>Start Detection</button></a>
+</body>
+</html>
